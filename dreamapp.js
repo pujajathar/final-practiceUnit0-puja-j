@@ -26,6 +26,7 @@ console.log(message); //logged message to the console
 /*Module- Creating and Using Objects*/
 //created object homeWork and assigned values to it.
 let homeWork =  { name: "Computer Science", completed: true, dueDate: "2026-05-05"};
+console.log(homeWork.name); //Accessed value of an object using "name" key. 
 
 /*Module- Creating or building Arrays--and--Module Creating and using Objects*/
 //created Array named homeWorkList which contains multiple objects. It also includes the object homeWork which
