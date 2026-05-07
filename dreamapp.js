@@ -27,7 +27,7 @@ console.log(message); //logged message to the console
 //created object homeWork and assigned values to it.
 let homeWork =  { name: "Computer Science", completed: true, dueDate: "2026-05-05"};
 
-/*Module- Creating or building Arrays*/
+/*Module- Creating or building Arrays--and--Module Creating and using Objects*/
 //created Array named homeWorkList which contains multiple objects. It also includes the object homeWork which
 //  is previously created
 let homeWorkList = [homeWork, { name: "Math Assignment", completed: true, dueDate: "2026-05-01" }, 
