@@ -24,11 +24,15 @@ console.log(message); //logged message to the console
 
 
 /*Module- Creating and Using Objects*/
-//created object homeWork and assigned values to it.
-let homeWork =  { name: "Computer Science", completed: true, dueDate: "2026-05-05"};
+//created object homeWork using curly braces {} and inside defined properties as key-value pairs.
+let homeWork =  { name: "Computer Science",
+     completed: true, 
+     dueDate: "2026-05-05",
+    };
 console.log(homeWork.name); //Accessed value of an object using property name and . notation. 
 homeWork.completed = false; //Updated value of the object 
 console.log(homeWork.completed); //Accessed updated value using . notation. 
+console.log(homeWork); //Prints the content of the object homeWork to the console.
 
 /*Module- Creating or building Arrays--and--Module Creating and using Objects*/
 //created Array named homeWorkList which contains multiple objects. It also includes the object homeWork which
